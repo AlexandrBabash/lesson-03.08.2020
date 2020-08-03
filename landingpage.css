@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-img {
+    position: relative;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://i.picsum.photos/id/694/1920/800.jpg?hmac=I5VwchNtaPxRbQ3rr8zLcVm4Q1CzMkZzcIBMwFkUDWY);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-img:nth-child(3) {
+    background-image: url(https://picsum.photos/1920/800/?blur);
+    min-height: 700px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    
+
+}
+
+.caption span {
+    background-color: #111;
+    padding: 18px;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text h3 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.text {
+    text-align: justify;
+    padding: 50px 80px;
+}
